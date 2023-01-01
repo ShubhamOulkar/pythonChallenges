@@ -14,12 +14,12 @@ Example 1:
 Input: nums = [2,4,3,7,10,6]
 Output: 4
 Explanation:
-The product of all the elements in nums is: 2 * 4 * 3 * 7 * 10 * 6 = 10080 = 25 * 32 * 5 * 7.
+The product of all the elements in nums is: 2 * 4 * 3 * 7 * 10 * 6 = 10080 = 2^5 * 3^2 * 5 * 7.
 There are 4 distinct prime factors so we return 4.
 
 Example 2:
 Input: nums = [2,4,8,16]
 Output: 1
 Explanation:
-The product of all the elements in nums is: 2 * 4 * 8 * 16 = 1024 = 210.
+The product of all the elements in nums is: 2 * 4 * 8 * 16 = 1024 = 2^10.
 There is 1 distinct prime factor so we return 1.
