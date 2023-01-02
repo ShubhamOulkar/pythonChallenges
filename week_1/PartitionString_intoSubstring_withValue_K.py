@@ -36,9 +36,7 @@ for s in sub_string:
                 ans.append(s)
 
 # Each digit must be part of exactly one substring
-
-
-print(ans)
+print(ans[: :-1])
 
 
 
